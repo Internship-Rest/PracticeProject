@@ -47,9 +47,9 @@ __饿了么App简单实现__
     │   ├── main
     │   │   ├── java
     │   │   │   └── com
-    │   │   │   │    └── handsome
+    │   │   │   │    └── internship
     │   │   │   │          └── elm
-    │   │   │   │           ├── ElmApplication.java  -- Spring Boot启动器类
+    │   │   │   │           ├── DemoApplication.java  -- Spring Boot启动器类
     │   │   │   │           ├── controller  -- MVC-WEB层
     │   │   │   │           ├── entity  -- 实体类
     │   │   │   │           ├── mapper  -- mybatis-Mapper层映射接口，或称为DAO层
@@ -64,7 +64,7 @@ __饿了么App简单实现__
 
 ## 开发配置
 
-- 克隆仓库
+- 克隆仓库或者直接下载zip包
 ```
 git clone https://github.com/Internship-Rest/PracticeProject.git
 ```
@@ -87,11 +87,11 @@ npm run build
 
 ### 后端配置
 
-- 后端配置数据库连接（没有公共服务器） 在后端项目的`application.properties`中配置本地主机的数据库连接地址以及用户名和密码
+- 后端配置数据库连接，因为没有公共服务器，因此，仓库中不包含`application.properties`这个文件，需要在后端项目对应目录中自行创建这个文件，复制下列代码，并配置本地主机的数据库连接地址以及用户名和密码
 ```
 application.properties:
     # 配置后端连接端口
-    server.port=8080 
+    server.port=8080
     # 配置数据源
     spring.datasource.url=jdbc:mysql:///<表名>?characterEncoding=utf8&useUnicode=true&useSSL=false&serverTimezone=UTC
     # 配置数据源的驱动名称（这里统一使用mysql，不需要改动）
@@ -103,7 +103,7 @@ application.properties:
     # 配置mybaits的映射文件位置（默认，不用修改）
     mybatis.mapper-locations=classpath:mapper/*.xml
     # 配置映射层的包位置
-    mybatis.type-aliases-package=<暂定>
+    mybatis.type-aliases-package=com.internship.elm.mapper
 ```
 
 __注意：需要启动数据库连接__

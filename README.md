@@ -6,7 +6,7 @@ __饿了么App简单实现__
 
 技术栈：
 - 后端：
-    - Spring boot
+    - Spring boot 
     - MyBaits
 - 前端：
     - vue.js
@@ -42,7 +42,6 @@ __饿了么App简单实现__
     ├── mvnw
     ├── mvnw.cmd
     ├── pom.xml
-    ├── spring-boot.iml
     ├── .gitignore
     ├── src
     │   ├── main

@@ -112,3 +112,23 @@ __注意：需要启动数据库连接__
         ``` 添加功能 完成前端用户添加订单的功能 ```
 
     2. 在每个主题描述完成之后添加一个空白行，接下来可以添加一些需要的细节描述
+
+- 添加表情在提交信息里 github支持的表情
+
+| `emoji` | `change type` | `text to use` |
+|:---:|:---:|:---:|
+| :bug: | bug | `:bug:` |
+| :arrow_upper_right: | improvement | `:arrow_upper_right:` |
+| :new: | new feature | `:new:` |
+| :white_check_mark: | tests | `:white_check_mark:` |
+| :book: | documentation | `:book:` |
+| :pencil2: | typo | `:pencil2:` |
+| :twisted_rightwards_arrows: | refactoring | `:twisted_rightwards_arrows:` |
+| :package: | release | `:package:` |
+| :clap: | contribution | `:clap:` |
+| :warning: | breaking | `:warning:` |
+| :exclamation: | important | `:exclamation:` |
+| :pray: | experimental | `:pray:` |
+| :recycle: | dead code removal | `:recycle:` |
+
+[其他表情](https://www.webfx.com/tools/emoji-cheat-sheet/)

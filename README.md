@@ -12,6 +12,12 @@ __饿了么App简单实现__
     - vue.js
     - element-ui
 
+开发环境：
+- 开发工具：idea 和 vscode
+- java SDK版本：1.8
+- maven：3.0以上
+- 文件编码配置：utf-8
+
 基本项目结构：
 
 ```

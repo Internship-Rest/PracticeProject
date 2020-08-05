@@ -38,7 +38,7 @@ __饿了么App简单实现__
     ├── .eslintrt.js -- 配置格式化文件
     ├── .babel.config.js -- 配置babel的设定
     ├── README.md 
-├── backend -- 后端项目文件夹
+├── backend -- 后端项目文件夹 
     ├── mvnw
     ├── mvnw.cmd
     ├── pom.xml

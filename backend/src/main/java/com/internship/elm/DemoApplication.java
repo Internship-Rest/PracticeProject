@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableAutoConfiguration
 @RestController
 public class DemoApplication {
-	/* 主入口函数 */
+
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
